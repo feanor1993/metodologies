@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/scriptForm.js"> </script>
+</head>
+<body>
+<form action="#" class="form" name="myForm">
+    <div class="header">
+        <div class="header__text">
+            <span class="header__text_title"> Общая информация</span><span class="header__text_step">Шаг 1 из 4</span>
+        </div>
+    </div>
+    <fieldset class="main">
+        <span class="main__title">Как Вас зовут? </span><br>
+        <input type="text" placeholder="ФИО*" class="main__contactsFull"><br>
+        <input type="text" placeholder="Мобильный телефон*" class="main__contactsHalf">
+        <input type="text" placeholder="Электронная почта" class="main__contactsHalf"><br>
+        <input type="text" placeholder="Желаемая сумма кредита" class="main__contactsFull">
+    </fieldset>
+    <fieldset class="footer">
+        <input type="checkbox" class="footer__checkbox" checked="checked"><label class="footer__text"> Я согласен с
+        <a href="#" class="footer__text_link">обработкой личных данных</a></label>
+        <div class="footer__button">
+            <a href="step2.html" class="footer__buttonLink" onclick="checkForm()">Далее</a>
+        </div>
+    </fieldset>
+</form>
+
+</body>
+</html>

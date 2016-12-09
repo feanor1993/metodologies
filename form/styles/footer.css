@@ -1,0 +1,75 @@
+.footer {
+    border-top: 1px solid #c3c3c3;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding-left: 12%;
+    padding-right: 15%;
+    margin-top: 50px;
+    height: 80px;
+}
+
+.footer__checkbox {
+    opacity: 0;
+    width: 21px;
+    height: 20px;
+    margin: 0;
+    top: 5px;
+    position: relative;
+}
+
+.footer__text {
+    min-height: 20px;
+    display: inline-block;
+    margin-left: -20px;
+    padding: 0 0 0 30px;
+    background: url(checkbox.png) no-repeat 0 0;
+    font-family: pragmatica, Helvetica, Arial, sans-serif;
+}
+
+.footer__text_link {
+    color: #578892;
+    font-family: pragmatica, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.footer__checkbox:checked + .footer__text {
+    background-position: 0 -20px;
+}
+
+.footer__button {
+    background: #ffe84d;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px #2a2a2a;
+    outline: none;
+    float: right;
+}
+
+.footer__button:hover {
+    background: #dcbb31;
+}
+
+.footer__buttonLink {
+    font-family: pragmatica, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+    font-size: 1.2em;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.footer__linkBack {
+    text-decoration: none;
+    color: #578892;
+    position: relative;
+    font-family: pragmatica, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    top: 10px;
+    left: 65%;
+
+}

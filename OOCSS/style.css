@@ -1,0 +1,295 @@
+@font-face {
+    font-family: mvideo;
+    src: url(9366.ttf);
+}
+
+body {
+    background: #efefef;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: mvideo;
+}
+
+.b-menu {
+    display: table;
+    table-layout: auto;
+}
+
+.b-menu-style {
+    background: white;
+    border-top: 1px solid #e9eaec;
+    box-shadow: 0 3px 10px rgba(40, 40, 40, 0.5);
+}
+
+.menu {
+    list-style: none;
+    margin: 0 13%;
+}
+
+.menu-element {
+    display: table-cell;
+}
+
+.menu-element-style {
+    border-right: 1px solid #d7d7d7;
+    background: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu-element:hover {
+    background: #c2c2c2;
+}
+
+.menu-element_active {
+    background: red;
+}
+
+.menu-element_last {
+    border: none;
+}
+
+.wrapper {
+    margin: 10px 13%;
+}
+
+.info {
+    height: 50px;
+}
+
+.info-style {
+    line-height: 60px;
+}
+
+.info-text {
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+.link:hover {
+    color: #f00;
+}
+
+.mv {
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+
+.printer {
+    float: right;
+    height: 100%;
+    width: 40%;
+}
+
+.del {
+    float: right;
+    margin-right: 5px;
+}
+
+.print {
+    float: right;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.main {
+    width: 72%;
+    min-width: 300px;
+    height: 725px;
+    float: left;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(75, 75, 75, 0.35);
+}
+
+.title {
+    width: 60%;
+    font-family: Helvetica;
+    font-weight: 900;
+    font-size: 25px;
+    margin: 5%;
+}
+
+.stars {
+    width: 40%;
+}
+
+.avtorize {
+    position: relative;
+    bottom: 150px;
+}
+
+.mac {
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+.aside {
+    width: 26%;
+    min-width: 120px;
+    height: 100%;
+    float: right;
+
+}
+
+.aside-header {
+    height: 75px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(75, 75, 75, 0.35);
+    border-radius: 10px;
+    cursor: pointer;
+    display: table;
+}
+
+.header-text {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #f00;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.like {
+    width: 30px;
+    height: 30px;
+    float: left;
+    clear: none;
+}
+
+.aside-main {
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(75, 75, 75, 0.35);
+    border-radius: 10px;
+}
+
+.top {
+    height: 85px;
+    margin: 5% 5% 2px 5%;
+    border-bottom: 1px solid #8c8c8c;
+    display: table;
+}
+
+.price {
+    font-family: Helvetica;
+    font-weight: 900;
+    display: table-cell;
+
+}
+
+.rouble {
+    font-family: Helvetica;
+    width: 70%;
+    font-weight: 900;
+    height: 100%;
+    font-size: 25px;
+    display: table;
+}
+
+.price-now {
+
+    padding-top: 5px;
+    font-size: 45px;
+
+}
+
+.price-past {
+    text-decoration: line-through;
+    color: #7b7b7b;
+    font-size: 20px;
+}
+
+.aside-footer {
+    margin-top: 20px;
+    height: 170px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(75, 75, 75, 0.35);
+    border-radius: 10px;
+}
+
+.middle {
+    height: 255px;
+    margin: 2% 5% 2px 5%;
+    border-bottom: 1px solid #8c8c8c;
+}
+
+.economy {
+    height: 30px;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.form {
+    height: 220px;
+}
+.button{
+    height: 40px;
+    width: 100%;
+    margin: 6px;
+}
+
+.red_button {
+
+    background: #f00;
+    color: #000;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.red_button:hover {
+    background: #970000;
+}
+
+.black_button {
+    background: #525252;
+    color: #000;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.black_button:hover {
+
+    background: #393939;
+
+}
+.white{
+    color: #fff;
+    line-height: 35px;
+    margin-left: 25%;
+
+
+}
+.reklama{
+   margin: 40px;
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/scriptForm.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script>
+        $(function() {
+            $( ".main__select" ).selectmenu();
+        });
+    </script>
+</head>
+<body>
+<form action="#" class="form" name="myForm">
+    <div class="header">
+        <div class="header__text">
+            <span class="header__text_title"> Место работы</span><span
+                class="header__text_step">Шаг 3 из 4</span>
+        </div>
+    </div>
+    <fieldset class="main">
+        <span class="main__title">Информация о работе </span><br>
+        <p>Правильное заполнение этих полей увеличит шансы на одобрение заявки, а также положительно повлияет на сумму кредитного лимита.</p>
+        <!--выберите тип занятости-->
+        <select  class="main__select">
+            <option>Slower</option>
+            <option>Slow</option>
+            <option selected="selected">Medium</option>
+            <option>Fast</option>
+            <option>Faster</option>
+        </select>
+        <textarea placeholder="Кем выдан" class="main__textarea"></textarea> <br>
+        <input type="text" placeholder="Сайт организации" class="main__contactsFull">
+        <input type="text" placeholder="Рабочий телефон" class="main__contactsHalf">
+        <input type="text" placeholder="Добавочный номер" class="main__contactsHalf"><br>
+       <!--занимаемая должность-->
+        <select  class="main__select">
+            <option>Slower</option>
+            <option>Slow</option>
+            <option selected="selected">Medium</option>
+            <option>Fast</option>
+            <option>Faster</option>
+        </select><br>
+        <input type="text" placeholder="Название занимаемой должности" class="main__contactsFull">
+    </fieldset>
+
+
+    <fieldset class="main">
+        <span class="main__title">Рабочий адрес </span><br>
+        <input type="text" placeholder="Индекс" class="main__contactsFull">
+        <input type="text" placeholder="Регион" class="main__contactsFull">
+    </fieldset>
+
+
+
+    <fieldset class="footer">
+        <a href="step2.html" class="footer__linkBack">Назад</a>
+
+        <div class="footer__button">
+            <a href="step4.html" class="footer__buttonLink" onclick="checkForm()">Далее</a>
+        </div>
+    </fieldset>
+</form>
+
+</body>
+</html>

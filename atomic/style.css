@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+::selection{
+    background: #b1b1b1;
+    color: #000;
+}
+.W-1280{
+width: 1280px;
+}
+.W-1120{
+    width: 1120px;
+}
+.W-880{
+    width: 880px;
+}
+.W-550{
+    width: 550px;
+}
+.W-515{
+    width: 515px;
+}
+.W-260{
+    width: 260px;
+}
+.W-220{
+    width: 220px;
+
+}
+.H-4000{
+    height: 4000px;
+}
+.H-1150{
+    height: 1150px;
+}
+.H-750{
+    height: 750px;
+}
+.H-600{
+    height: 600px;
+}
+.H-550{
+    height: 550px;
+}
+.H-400{
+    height: 400px;
+}
+.H-90{
+    height: 90px;
+}
+.mar0-220{
+    margin: 0 220px;
+}
+.mar0-56{
+    margin: 0 56px;
+}
+.mar0-190{
+    margin: 0 190px;
+}
+.mar0-500{
+    margin: 0 480px;
+}
+.mar-top280{
+    margin-top: 280px;
+}
+.mar-top60{
+    margin-top: 60px;
+}
+.mar-top120{
+    margin-top: 120px;
+}
+.mar-top130{
+    margin-top: 130px;
+}
+.mar-bot50{
+    margin-bottom: 50px;
+}
+@font-face {
+    font-family: Futuris;
+    src: url(Futuris-Cyrillic.ttf);
+}
+.FF{
+    font-family:   Futuris Helvetica;
+}
+.FS-40px{
+    font-size: 40px;
+}
+.FS-20px{
+    font-size: 20px;
+}
+.c-grey{
+    color: #a6a6a6;
+}
+.clear{
+    clear: both;
+}
+.dis-IB{
+    display: inline-block;
+}
+.posa{
+    position: absolute;
+}
+.posr{
+    position: relative;
+}
+.l210{
+    left: 210px;
+}
+.t62{
+    top: 62px;
+}
+.t80{
+    top: 80px;
+}
+.t550{
+    top: 550px;
+}
+.t1300{
+    top:1300px;
+}
+.t1850{
+    top:1850px;
+}
+.t3100{
+    top:3100px;
+}
+.t3900{
+    top:3900px;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.center{
+    text-align: center;
+}
+.lists-none{
+    list-style: none;
+}

@@ -1,0 +1,36 @@
+::-webkit-input-placeholder {
+    font-family: pragmatica, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+
+}
+
+::-moz-placeholder {
+    font-family: pragmatica, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+:-moz-placeholder {
+    font-family: pragmatica, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+:-ms-input-placeholder {
+    font-family: pragmatica, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+:focus::-moz-placeholder {
+    color: transparent
+}
+
+:focus:-moz-placeholder {
+    color: transparent
+}
+
+:focus:-ms-input-placeholder {
+    color: transparent
+}

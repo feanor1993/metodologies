@@ -1,0 +1,42 @@
+.main {
+    border: none;
+    margin: 30px 15% 0;
+}
+
+.main__title {
+    font-family: pragmatica, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.main__contactsFull {
+    width: 98%;
+    height: 50px;
+    margin: 8px 0;
+    border: 1px solid #c3c3c3;
+    border-radius: 10px;
+}
+
+.main__contactsHalf {
+    width: 48%;
+    height: 50px;
+    margin: 8px 5px 8px 0;
+    border: 1px solid #c3c3c3;
+    border-radius: 10px;
+}
+.main__textarea{
+    width: 98%;
+    height: 90px;
+    resize: none;
+    border: 1px solid #c3c3c3;
+    border-radius: 10px;
+}
+.main__select{
+    width: 98%;
+    height: 50px;
+    margin: 80px;
+}
+.main__contactsFull:focus,.main__contactsHalf:focus, .main__textarea:focus {
+    border: 2px solid #c09f00;
+    outline: none;
+
+}

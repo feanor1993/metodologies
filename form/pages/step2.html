@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/scriptForm.js"> </script>
+</head>
+<body>
+<form action="#" class="form" name="myForm">
+    <div class="header">
+        <div class="header__text">
+            <span class="header__text_title"> Персональные данные</span><span class="header__text_step">Шаг 2 из 4</span>
+        </div>
+    </div>
+    <fieldset class="main">
+        <span class="main__title">Паспортные данные </span><br>
+        <input type="text" placeholder="Код подразделения" class="main__contactsHalf">
+        <input type="text" placeholder="Дата выдачи" class="main__contactsHalf"><br>
+        <textarea placeholder="Кем выдан" class="main__textarea"> </textarea> <br>
+        <input type="text" placeholder="Серия" class="main__contactsHalf">
+        <input type="text" placeholder="Номер" class="main__contactsHalf"><br>
+        <input type="text" placeholder="Место рождения" class="main__contactsFull">
+    </fieldset>
+
+
+    <fieldset class="main">
+        <span class="main__title">Адрес по месту постоянной регистрации </span><br>
+        <input type="text" placeholder="Индекс" class="main__contactsFull">
+        <input type="text" placeholder="Регион" class="main__contactsFull">
+    </fieldset>
+
+    <fieldset class="main">
+        <span class="main__title">Адрес фактического проживания </span><br>
+        <input type="checkbox" class="footer__checkbox" checked="checked"><label class="footer__text"> Совпадает с пропиской</label>
+    </fieldset>
+
+    <fieldset class="main">
+        <span class="main__title">Стационарный телефон </span><br>
+        <input type="text" placeholder="Индекс" class="main__contactsFull">
+        <input type="checkbox" class="footer__checkbox" checked="checked"><label class="footer__text"> Мой номер</label>
+        <input type="checkbox" class="footer__checkbox" checked="checked"><label class="footer__text"> Номер родственника</label>
+        <input type="checkbox" class="footer__checkbox" checked="checked"><label class="footer__text"> Номер друга/знакомого</label>
+
+    </fieldset>
+
+
+
+    <fieldset class="footer">
+        <a href="index.html" class="footer__linkBack" >Назад</a>
+        <div class="footer__button">
+            <a href="step3.html" class="footer__buttonLink" onclick="checkForm()">Далее</a>
+        </div>
+    </fieldset>
+</form>
+
+</body>
+</html>
